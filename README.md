@@ -6,6 +6,6 @@ PracticeKnowing
 
 2.线程池单例及线程池中线程数据的取得和回传（EventBus）
 
-3. ViewPager Demo
+3.ViewPager Demo
 
-
+4.View的事件冲突：WebView与ScrollView，ScrollView与RecyclerView
