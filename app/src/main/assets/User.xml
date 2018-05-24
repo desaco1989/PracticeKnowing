@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Users>  
+  <User>  
+    <name>张三</name>  
+    <age>20</age>  
+  </User>  
+  <User>  
+    <name>李四</name>  
+    <age>21</age>  
+  </User>  
+  <User>  
+    <name>王五</name>  
+    <age>22</age>  
+  </User>  
+</Users>  

@@ -1,4 +1,4 @@
-package com.desaco.practiceknowing.connect_rx;
+package com.desaco.practiceknowing.connect_eventbus;
 
 /**
  * Created by desaco on 2018/5/9.

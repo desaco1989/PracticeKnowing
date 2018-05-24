@@ -16,13 +16,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.desaco.practiceknowing.R;
-import com.desaco.practiceknowing.connect_rx.MessageEvent;
+import com.desaco.practiceknowing.connect_eventbus.MessageEvent;
 import com.desaco.practiceknowing.thread_pool_viewpager.ThreadPoolManager2;
 import com.desaco.practiceknowing.utils.PictureUtils;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
 
 /**
  * Created by desaco on 2018/4/16.
