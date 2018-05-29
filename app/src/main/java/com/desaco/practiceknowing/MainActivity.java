@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.desaco.practiceknowing.native_method.Caculate;
+import com.desaco.practiceknowing.native_method.NativeEncryptDecode;
 import com.desaco.practiceknowing.task_five.DrawingGraphicsActivity;
 import com.desaco.practiceknowing.task_four.VideoAudioProcessActivity2;
 import com.desaco.practiceknowing.task_one.TaskOneActivity;
@@ -36,17 +37,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void initView() {
-        //
-        TextView showMsgTv = (TextView)findViewById(R.id.show_msg);
-        int add = Caculate.getInstance().add(3,4);
-        int subtract = Caculate.getInstance().subtract(3,4);
-        int multiply = Caculate.getInstance().multiply(3,4);
-        int divide = Caculate.getInstance().divide(3,8);
-
-        showMsgTv.setText("四则运算结果：add="+add+",subtract="+subtract+",multiply="+multiply+",divide="+divide);
-
-
-
         Button taskOneBt = (Button) findViewById(R.id.show_task_one);
         taskOneBt.setOnClickListener(this);
 
@@ -67,7 +57,17 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void initData() {
+        TextView showMsgTv = (TextView) findViewById(R.id.show_msg);
+        int add = Caculate.getInstance().add(3, 4);
+        int subtract = Caculate.getInstance().subtract(3, 4);
+        int multiply = Caculate.getInstance().multiply(3, 4);
+        int divide = Caculate.getInstance().divide(3, 8);
 
+        String encrypt = NativeEncryptDecode.getInstance().encrypt("encrypt data");
+        String decode = NativeEncryptDecode.getInstance().decode("decode data");
+
+        showMsgTv.setText("四则运算结果：add=" + add + ",subtract=" + subtract + ",multiply=" + multiply + ",divide=" + divide
+                + ",encrypt=" + encrypt + ",decode=" + decode);
     }
 
     @Override

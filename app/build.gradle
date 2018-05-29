@@ -21,6 +21,10 @@ android {
             abiFilters "armeabi"
             //, "x86"
         }
+//        packagingOptions {
+//            exclude 'libs/armeabi/libcaculate-lib.so'
+//            exclude 'libs/armeabi/libencryptDecode-lib.so'
+//        }
 
 
     }
@@ -55,6 +59,7 @@ dependencies {
     implementation files('libs/eventbus-3.1.1.jar')
     compile 'com.android.support:recyclerview-v7:24.1.1'
 
-    compile 'com.alibaba:fastjson:1.2.47'
-    compile 'com.alibaba:fastjson:1.1.68.android'
+//    compile 'com.alibaba:fastjson:1.2.47'
+//    compile 'com.alibaba:fastjson:1.1.68.android'
+    implementation files('libs/fastjson-1.1.33.jar')
 }

@@ -1,12 +1,22 @@
 cmake_minimum_required(VERSION 3.4.1)
 
-# 编译出一个动态库 native-lib，源文件只有 src/main/cpp/native-lib.cpp
+# set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/../jniLibs/${ANDROID_ABI})
+# set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/../app/libs/${ANDROID_ABI})
+
+# 编译出一个动态库 native-lib，源文件只有 src/main/cpp/caculate/native-lib.cpp
 add_library( # Sets the name of the library.
              caculate-lib
              # Sets the library as a shared library.
              SHARED
              # Provides a relative path to your source file(s).
-             src/main/cpp/Caculate.cpp )
+             src/main/cpp/caculate/Caculate.cpp )
+
+add_library( # 生成的.so文件的名称,第二个.so
+              encryptDecode-lib
+             # Sets the library as a shared library.
+               SHARED
+             # 提供的c++文件
+               src/main/cpp/decrypt_encrypt/NativeEncryptDecode.cpp )
 
 # 找到预编译库 log_lib 并link到我们的动态库 native-lib中
 find_library( # Sets the name of the path variable.
@@ -14,9 +24,15 @@ find_library( # Sets the name of the path variable.
               # Specifies the name of the NDK library that
               # you want CMake to locate.
               log )
-
+#########
 target_link_libraries( # Specifies the target library.
                        caculate-lib
+                       # Links the target library to the log library
+                       # included in the NDK.
+                       ${log-lib} )
+
+target_link_libraries( # Specifies the target library.与log库绑定
+                       encryptDecode-lib
                        # Links the target library to the log library
                        # included in the NDK.
                        ${log-lib} )
