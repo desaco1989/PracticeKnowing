@@ -10,6 +10,19 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-frtti -fexceptions"
+            }
+        }
+
+        ndk {
+            abiFilters "armeabi"
+            //, "x86"
+        }
+
+
     }
     buildTypes {
         release {
@@ -17,6 +30,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    sourceSets.main {
+        jniLibs.srcDirs = ['libs']
+//        jni.srcDirs = [] //disable automatic ndk-build call
+    }
+
 }
 
 dependencies {
