@@ -15,4 +15,7 @@ PracticeKnowing
 6.Json格式数据解析
 
 7.cmake编译JNI代码，https://blog.csdn.net/ShareUs/article/details/80005773
+
 8.cmake生成多个so包
+
+9.C反射Java，C++反射Java（JNI反射）；添加JNI层的Log;

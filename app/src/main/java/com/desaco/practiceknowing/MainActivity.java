@@ -4,11 +4,14 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.desaco.practiceknowing.native_method.Caculate;
+import com.desaco.practiceknowing.native_method.JniInvokeJava;
 import com.desaco.practiceknowing.native_method.NativeEncryptDecode;
 import com.desaco.practiceknowing.task_five.DrawingGraphicsActivity;
 import com.desaco.practiceknowing.task_four.VideoAudioProcessActivity2;
@@ -19,6 +22,8 @@ import com.desaco.practiceknowing.thread_pool_viewpager.TestTreadPoolViewPagerAc
 
 /**
  * Android 音视频开发入门指南- https://blog.csdn.net/shareus/article/details/79957614
+ * cd app/src/main/java
+ javah -jni com.desaco.practiceknowing.native_method.JniInvokeJava
  */
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -54,6 +59,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         //threadpool_viewpager
         Button threadpool_viewpager = (Button) findViewById(R.id.threadpool_viewpager);
         threadpool_viewpager.setOnClickListener(this);
+        //
+        Button jniBt = (Button) findViewById(R.id.jni_test);
+        jniBt.setOnClickListener(this);
     }
 
     private void initData() {
@@ -104,10 +112,17 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.threadpool_viewpager:
                 jumpActivty(TestTreadPoolViewPagerActivity.class);
                 break;
-
+            case R.id.jni_test:
+                JniInvokeJava.getInstance().reflect();
+                break;
             default:
                 break;
         }
+    }
+
+    public void showToastMsg(String msg) {
+//        Toast. makeText(this, msg, Toast.LENGTH_LONG).show();//使用这个，可能会报各种空指针异常
+        Log.e("desaco", msg);
     }
 
     private void jumpActivty(Class<?> clazz) {

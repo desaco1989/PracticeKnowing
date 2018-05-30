@@ -18,6 +18,21 @@ add_library( # 生成的.so文件的名称,第二个.so
              # 提供的c++文件
                src/main/cpp/decrypt_encrypt/NativeEncryptDecode.cpp )
 
+ add_library( # jniAttr-lib 第三个 SO
+               jniAttr-lib
+              # Sets the library as a shared library.
+                SHARED
+              # 提供的c++文件
+                src/main/cpp/jni_attr/cplusplus_invoke_java.cpp )
+
+add_library( # jniAttr-lib 第4个 SO
+               cCallJava-lib
+              # Sets the library as a shared library.
+                SHARED
+              # 提供的c++文件
+                src/main/cpp/jni_attr/c_call_java.c)
+
+
 # 找到预编译库 log_lib 并link到我们的动态库 native-lib中
 find_library( # Sets the name of the path variable.
               log-lib
@@ -33,6 +48,18 @@ target_link_libraries( # Specifies the target library.
 
 target_link_libraries( # Specifies the target library.与log库绑定
                        encryptDecode-lib
+                       # Links the target library to the log library
+                       # included in the NDK.
+                       ${log-lib} )
+
+target_link_libraries( # Specifies the target library.与log库绑定
+                       jniAttr-lib
+                       # Links the target library to the log library
+                       # included in the NDK.
+                       ${log-lib} )
+
+target_link_libraries( # Specifies the target library.与log库绑定
+                       cCallJava-lib
                        # Links the target library to the log library
                        # included in the NDK.
                        ${log-lib} )

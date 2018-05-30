@@ -29,6 +29,9 @@
         android:theme="@style/AppTheme">
 
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.CcallJavaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

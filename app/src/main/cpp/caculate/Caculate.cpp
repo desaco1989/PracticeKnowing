@@ -1,5 +1,6 @@
 //
 // Created by desaco on 2018/5/29.
+//javah -jni com.desaco.practiceknowing.native_method.JniInvokeJava
 //
 # include "com_desaco_practiceknowing_native_method_Caculate.h";
 #include <jni.h>

@@ -79,6 +79,15 @@
                 android:text="ThreadPool获得结果_viewPager_线程间通信"
                 android:textColor="#ff0000" />
 
+            <Button
+                android:id="@+id/jni_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="JNI测试"
+                android:textColor="#CF415E" />
+
         </LinearLayout>
 
     </ScrollView>
