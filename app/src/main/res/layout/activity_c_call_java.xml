@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:textSize="14sp"
+        android:textColor="#ff0000"
+        android:id="@+id/show_tv"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <Button
         android:id="@+id/bt_javanull"
         android:layout_width="wrap_content"

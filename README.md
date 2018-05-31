@@ -19,3 +19,8 @@ PracticeKnowing
 8.cmake生成多个so包
 
 9.C反射Java，C++反射Java（JNI反射）；添加JNI层的Log;
+
+10.权限设置页面及工具类：com.desaco.practiceknowing.utils.SettingUtils.
+   Android各大手机品牌手机跳转到权限管理界面- https://www.jianshu.com/p/b5c494dba0bc；
+   Android 跳转权限设置界面的终极适配（适配各大定制 ROM）- https://www.jianshu.com/p/58c6ca8173c4；
+   整理并收集各种常用的覆盖面广的工具类- https://github.com/SenhLinsh/Utils-Everywhere；
