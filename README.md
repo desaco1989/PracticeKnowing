@@ -1,6 +1,4 @@
----------
-PracticeKnowing
-个人代码备份：主要涉及Android特性 demo,技术实践
+# PracticeKnowing，个人代码备份：主要涉及Android特性 demo,技术实践
 
 1.Android 音视频开发入门指南-https://blog.csdn.net/shareus/article/details/79957614
 
@@ -24,3 +22,7 @@ PracticeKnowing
    Android各大手机品牌手机跳转到权限管理界面- https://www.jianshu.com/p/b5c494dba0bc；
    Android 跳转权限设置界面的终极适配（适配各大定制 ROM）- https://www.jianshu.com/p/58c6ca8173c4；
    整理并收集各种常用的覆盖面广的工具类- https://github.com/SenhLinsh/Utils-Everywhere；
+
+11.数组和集合遍历：String...array，
+
+12.泛型的上限和下限

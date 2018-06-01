@@ -81,7 +81,7 @@ public class DataParseActivity extends Activity {
         showTv.setText(sb.toString());
     }
 
-    private void dom4jUtils() {
+    private void dom4jUtils() {//TODO dom4j
         try {
             //XML用于保存及交换数据，与读取配置文件的类在同一包，或在WEB-INF(或其子目录下)，// 读取配置文件获得一个输入流
             InputStream is = mContext.getResources().getAssets().open("User.xml");
