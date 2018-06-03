@@ -8,7 +8,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.desaco.practiceknowing.native_method.Caculate;
 import com.desaco.practiceknowing.native_method.JniInvokeJava;
@@ -18,7 +17,7 @@ import com.desaco.practiceknowing.task_four.VideoAudioProcessActivity2;
 import com.desaco.practiceknowing.task_one.TaskOneActivity;
 import com.desaco.practiceknowing.task_three.TextureViewActivity;
 import com.desaco.practiceknowing.task_two.AudioRecordAudioTrackActivity;
-import com.desaco.practiceknowing.thread_pool_viewpager.TestTreadPoolViewPagerActivity;
+import com.desaco.practiceknowing.fragment.TestTreadPoolViewPagerActivity;
 
 /**
  * Android 音视频开发入门指南- https://blog.csdn.net/shareus/article/details/79957614

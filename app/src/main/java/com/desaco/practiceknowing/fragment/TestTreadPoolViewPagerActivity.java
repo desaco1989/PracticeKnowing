@@ -1,4 +1,4 @@
-package com.desaco.practiceknowing.thread_pool_viewpager;
+package com.desaco.practiceknowing.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
