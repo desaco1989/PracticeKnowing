@@ -25,6 +25,8 @@ import org.greenrobot.eventbus.Subscribe;
 
 /**
  * Created by desaco on 2018/4/16.
+ *
+ * 接受EventBus发来的消息
  */
 
 public class VideoSubFragment3 extends Fragment {

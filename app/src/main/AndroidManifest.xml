@@ -32,11 +32,7 @@
 
         </activity>
         <activity android:name="com.desaco.practiceknowing.CcallJavaActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity android:name="com.desaco.practiceknowing.task_one.TaskOneActivity" />
@@ -49,7 +45,13 @@
         <!--    -->
         <activity android:name="com.desaco.practiceknowing.task_four.VideoAudioProcessActivity2" />
 
-        <activity android:name="com.desaco.practiceknowing.fragment.TestTreadPoolViewPagerActivity"></activity>
+        <activity android:name="com.desaco.practiceknowing.fragment.TestTreadPoolViewPagerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <activity android:name="com.desaco.practiceknowing.view_conflict.ScrollViewWebViewActivity">
 

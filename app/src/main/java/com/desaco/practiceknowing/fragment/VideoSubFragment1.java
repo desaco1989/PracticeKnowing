@@ -65,7 +65,9 @@ public class VideoSubFragment1 extends Fragment {
 //                BitmapCallable callable = new BitmapCallable();
 //                ThreadPoolManager2.getThreadPoolInstance().futureExcute(callable);
 
-                ThreadPoolManager2.getThreadPoolInstance().execute(subRun);//TODO
+                //TODO 发送EventBus消息，发给VideoSubFragment3
+                ThreadPoolManager2.getThreadPoolInstance().execute(subRun);
+
                 Log.e("desaco", "VideoSubFragment1,onClick");
             }
         });
@@ -115,7 +117,7 @@ public class VideoSubFragment1 extends Fragment {
 //            message.obj = bitmap;
 //            mHandler.sendMessage(message);
 
-            //EventBus发送消息
+            //TODO EventBus发送消息
             EventBus.getDefault().post(new MessageEvent(bitmap,""));
         }
     };
