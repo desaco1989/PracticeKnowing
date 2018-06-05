@@ -26,3 +26,5 @@
 11.数组和集合遍历：String...array，
 
 12.泛型的上限和下限
+
+13.JNI中获取Application Context;JNI 资源释放;JNI加密(编码格式GB2312？)?

@@ -30,4 +30,10 @@ public class NativeEncryptDecode {
     public native String encrypt(String encryptData);
 
     public native String decode(String decodeData);
+
+
+    //加密本地方法
+    public native String encodeWithC(String text, int length);
+    //解密本地方法
+    public native String decodeWithC(String text, int length);
 }

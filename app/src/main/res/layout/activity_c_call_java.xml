@@ -7,13 +7,13 @@
     android:orientation="vertical">
 
     <TextView
-        android:textSize="14sp"
-        android:textColor="#ff0000"
         android:id="@+id/show_tv"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="5dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#ff0000"
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/bt_javanull"
@@ -38,4 +38,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="C调用java 静态方法" />
+
+    <View
+        android:background="#00ff00"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <Button
+        android:id="@+id/encode_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加密" />
+    <TextView
+        android:textColor="#ff0000"
+        android:id="@+id/show_encode_str"
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/decode_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解密" />
+    <View
+        android:background="#00ff00"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
 </LinearLayout>

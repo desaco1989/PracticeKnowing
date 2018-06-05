@@ -40,3 +40,16 @@ std::string jstring2string(JNIEnv* env, jstring jstr)
     free(rtn);
     return   stemp;
 }
+
+//JNI中获取Application Context呢? JNI获取上下文Context
+jobject getGlobalContext(JNIEnv *env)
+{
+    //获取Activity Thread的实例对象
+    jclass activityThread = env->FindClass("android/app/ActivityThread");
+    jmethodID currentActivityThread = env->GetStaticMethodID(activityThread, "currentActivityThread", "()Landroid/app/ActivityThread;");
+    jobject at = env->CallStaticObjectMethod(activityThread, currentActivityThread);
+    //获取Application，也就是全局的Context
+    jmethodID getApplication = env->GetMethodID(activityThread, "getApplication", "()Landroid/app/Application;");
+    jobject context = env->CallObjectMethod(at, getApplication);
+    return context;
+}

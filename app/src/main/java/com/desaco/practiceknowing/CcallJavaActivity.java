@@ -8,11 +8,13 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.desaco.practiceknowing.native_method.CcallJava;
+import com.desaco.practiceknowing.native_method.NativeEncryptDecode;
 
 public class CcallJavaActivity extends Activity implements View.OnClickListener {
     //
 
     private CcallJava jni;
+    private TextView showEncodeStrTv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,10 @@ public class CcallJavaActivity extends Activity implements View.OnClickListener 
         findViewById(R.id.bt_javaString).setOnClickListener(this);
         findViewById(R.id.bt_static).setOnClickListener(this);
 
+        showEncodeStrTv = (TextView) findViewById(R.id.show_encode_str);
+        findViewById(R.id.encode_str).setOnClickListener(this);
+        findViewById(R.id.decode_str).setOnClickListener(this);
+        //  R.id.encode_str   R.id.decode_str
 //        initData();
     }
 
@@ -55,7 +61,28 @@ public class CcallJavaActivity extends Activity implements View.OnClickListener 
                 break;
             case R.id.bt_static:
                 jni.callStaticmethod();
+                break;//  R.id.encode_str   R.id.decode_str
+            case R.id.encode_str:
+                String str = "abcdefg";
+                String encodeStr = NativeEncryptDecode.getInstance().decodeWithC(str, str.length());
+                showEncodeStrTv.setText(encodeStr);
                 break;
+            case R.id.decode_str:
+                String encode = showEncodeStrTv.getText().toString();
+                String decode = NativeEncryptDecode.getInstance().decodeWithC(encode, encode.length());
+                showEncodeStrTv.setText(decode);
+                break;
+        }
+    }
+
+    private void strEncode() {
+        try {
+            StringBuilder sb = new StringBuilder();
+            sb.append("balalabala巴啦啦小魔仙01");
+            String utf8 = new String(sb.toString().getBytes("UTF-8"));
+            String unicode = new String(utf8.getBytes(), "UTF-8");
+            String gbk = new String(unicode.getBytes("GB2312"));
+        } catch (Exception e) {
         }
     }
 }

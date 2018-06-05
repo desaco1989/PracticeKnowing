@@ -15,8 +15,8 @@ add_library( # 生成的.so文件的名称,第二个.so
               encryptDecode-lib
              # Sets the library as a shared library.
                SHARED
-             # 提供的c++文件
-               src/main/cpp/decrypt_encrypt/NativeEncryptDecode.cpp )
+             # 提供的c++文件 NativeEncryptDecode.cpp encode_decode.c
+               src/main/cpp/decrypt_encrypt/NativeEncryptDecode.cpp  src/main/cpp/decrypt_encrypt/encode_decode.c )
 
  add_library( # jniAttr-lib 第三个 SO
                jniAttr-lib
