@@ -90,5 +90,4 @@ public class CustomLinearLayout extends LinearLayout {
         Log.e(TAG, "requestDisallowInterceptTouchEvent ");
         super.requestDisallowInterceptTouchEvent(disallowIntercept);
     }
-
 }

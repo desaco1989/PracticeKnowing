@@ -9,9 +9,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 
 import com.desaco.practiceknowing.R;
-import com.desaco.practiceknowing.fragment.VideoSubFragment1;
-import com.desaco.practiceknowing.fragment.VideoSubFragment2;
-import com.desaco.practiceknowing.fragment.VideoSubFragment3;
 
 import java.util.ArrayList;
 
