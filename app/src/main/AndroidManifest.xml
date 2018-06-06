@@ -32,6 +32,9 @@
 
         </activity>
         <activity android:name="com.desaco.practiceknowing.CcallJavaActivity">
+
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.banner.RecyclerViewWithHeaderFootActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
