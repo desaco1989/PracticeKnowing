@@ -29,6 +29,6 @@
 
 13.JNI中获取Application Context;JNI 资源释放;JNI加密(编码格式GB2312？)?
 
-14.RecyclerView动态头部和尾部；Banner图无限轮播？
+14.RecyclerView动态头部和尾部；Banner图无限轮播;RecyclerView头部中添加Banner
 
-15.监听WebView或RecyclerView的滚动
+15.监听WebView或RecyclerView的滚动。RecycerView滚动到最顶部和最底部?

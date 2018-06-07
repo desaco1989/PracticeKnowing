@@ -15,10 +15,10 @@ import java.util.List;
 
 /**
  * Created by desaco on 2018/6/6.
- * RecyclerView可以添加头部和尾部
+ * RecyclerView可以添加头部和尾部，也可以删除头部和尾部
  * https://www.jianshu.com/p/258d0dca4791
  */
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder> {
+public class HeaderFooterAdapter extends RecyclerView.Adapter<HeaderFooterAdapter.MyHolder> {
 
     private RecyclerView mRecyclerView;
 
@@ -33,7 +33,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder> {
     private int TYPE_HEADER = 1001;
     private int TYPE_FOOTER = 1002;
 
-    public MyAdapter(List<String> data, Context mContext) {
+    public HeaderFooterAdapter(List<String> data, Context mContext) {
         this.data = data;
         this.mContext = mContext;
     }
@@ -165,6 +165,22 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder> {
 
         public MyHolder(View itemView) {
             super(itemView);
+        }
+    }
+
+    //删除头部
+    public void removeHeaderView() {
+        if (haveHeaderView()) {
+            VIEW_HEADER = null;
+            notifyItemRemoved(0);
+        }
+    }
+
+    //删除尾部
+    public void removeFooterView() {
+        if (haveFooterView()) {
+            VIEW_FOOTER = null;
+            notifyItemRemoved(getItemCount() - 1);
         }
     }
 }

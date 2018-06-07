@@ -6,8 +6,12 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.Toast;
 
 import com.desaco.practiceknowing.R;
+import com.desaco.practiceknowing.banner.myBanner.BannerLayout;
+import com.desaco.practiceknowing.banner.myBanner.imageloader.PicassoImageLoader;
 import com.desaco.practiceknowing.utils.LogUtil;
 
 import java.util.ArrayList;
@@ -23,7 +27,7 @@ import java.util.List;
 public class RecyclerViewWithHeaderFootActivity extends Activity {
     //com.desaco.practiceknowing.banner.RecyclerViewWithHeaderFootActivity
 
-    private MyAdapter adapter;
+    private HeaderFooterAdapter adapter;
     private RecyclerView mRecyclerView;
 
     @Override
@@ -47,11 +51,29 @@ public class RecyclerViewWithHeaderFootActivity extends Activity {
         for (int i = 0; i <= 10; i++) {
             data.add("-- 内容," + i);
         }
-        adapter = new MyAdapter(data, this);
+        adapter = new HeaderFooterAdapter(data, this);
         mRecyclerView.setAdapter(adapter);
 
-        adapter.addFooterView(LayoutInflater.from(this).inflate(R.layout.item_footer_layout, null));
-        adapter.addHeaderView(LayoutInflater.from(this).inflate(R.layout.item_header_layout, null));
+        View footerView = LayoutInflater.from(this).inflate(R.layout.item_footer_layout, null);
+        adapter.addFooterView(footerView);
+
+        View headerView = LayoutInflater.from(this).inflate(R.layout.item_header_layout, null);
+        adapter.addHeaderView(headerView);
+
+        BannerLayout bannerLayout2 = (BannerLayout) headerView.findViewById(R.id.banner2);
+        //低于三张
+        final List<String> urls2 = new ArrayList<>();
+        urls2.add("http://img3.imgtn.bdimg.com/it/u=2674591031,2960331950&fm=23&gp=0.jpg");
+        urls2.add("http://img5.imgtn.bdimg.com/it/u=3639664762,1380171059&fm=23&gp=0.jpg");
+        bannerLayout2.setImageLoader(new PicassoImageLoader());
+        bannerLayout2.setViewUrls(urls2);
+        //添加监听事件
+        bannerLayout2.setOnBannerItemClickListener(new BannerLayout.OnBannerItemClickListener() {
+            @Override
+            public void onItemClick(int position) {
+                Toast.makeText(RecyclerViewWithHeaderFootActivity.this, String.valueOf(position), Toast.LENGTH_SHORT).show();
+            }
+        });
 
         mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
@@ -74,15 +96,6 @@ public class RecyclerViewWithHeaderFootActivity extends Activity {
                 super.onScrolled(recyclerView, dx, dy);
 
                 LogUtil.e("desaco", "recyclerView dy=" + dy);
-
-//                LinearLayoutManager manager = (LinearLayoutManager) recyclerView.getLayoutManager();
-//                adapterNowPos = l.findFirstVisibleItemPosition();
-//                allItems = l.getItemCount();
-//                String s = adapterNowPos + 1 + "/" + allItems;
-//                comic_pic_state.setText(s);//设置图片的数量
-//                pic_state_top.setText(s);
-
-
             }
         });
     }
