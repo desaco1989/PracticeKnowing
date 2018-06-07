@@ -31,7 +31,7 @@
         <activity android:name=".MainActivity">
 
         </activity>
-        <activity android:name="com.desaco.practiceknowing.CcallJavaActivity">
+        <activity android:name="com.desaco.practiceknowing.activity.CcallJavaActivity">
 
         </activity>
         <activity android:name="com.desaco.practiceknowing.banner.RecyclerViewWithHeaderFootActivity">
@@ -72,6 +72,9 @@
         </activity>
 
         <activity android:name="com.desaco.practiceknowing.audio_video_api.MediaPlayerMediaControlActivity">
+
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.activity.ObserverScrollViewActivity">
 
         </activity>
 

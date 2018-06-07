@@ -1,4 +1,4 @@
-package com.desaco.practiceknowing;
+package com.desaco.practiceknowing.activity;
 
 import android.app.Activity;
 import android.os.Build;
@@ -7,6 +7,7 @@ import android.view.Display;
 import android.view.View;
 import android.widget.TextView;
 
+import com.desaco.practiceknowing.R;
 import com.desaco.practiceknowing.native_method.CcallJava;
 import com.desaco.practiceknowing.native_method.NativeEncryptDecode;
 

@@ -18,7 +18,7 @@
 
 9.C反射Java，C++反射Java（JNI反射）；添加JNI层的Log;
 
-10.权限设置页面及工具类：com.desaco.practiceknowing.utils.SettingUtils.
+10.权限设置页面及工具类：com.desaco.practiceknowing.utils.JumpSettingPageUtils
    Android各大手机品牌手机跳转到权限管理界面- https://www.jianshu.com/p/b5c494dba0bc；
    Android 跳转权限设置界面的终极适配（适配各大定制 ROM）- https://www.jianshu.com/p/58c6ca8173c4；
    整理并收集各种常用的覆盖面广的工具类- https://github.com/SenhLinsh/Utils-Everywhere；
@@ -30,3 +30,5 @@
 13.JNI中获取Application Context;JNI 资源释放;JNI加密(编码格式GB2312？)?
 
 14.RecyclerView动态头部和尾部；Banner图无限轮播？
+
+15.监听WebView或RecyclerView的滚动

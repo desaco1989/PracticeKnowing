@@ -8,8 +8,8 @@ import android.support.annotation.Nullable;
  * Created by desaco on 2018/6/4.
  */
 
-public class SubService extends IntentService {
-    public SubService() {
+public class SubIntentService extends IntentService {
+    public SubIntentService() {
         super("MyIntentService");
     }
 

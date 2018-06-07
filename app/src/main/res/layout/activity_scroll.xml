@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/test_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="我是测试Tv"
+        android:textColor="#dd1234" />
+
+    <com.desaco.practiceknowing.widget.ScrollWebView
+        android:id="@+id/scroll_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.desaco.practiceknowing.widget.ScrollWebView>
+
+</LinearLayout>
+

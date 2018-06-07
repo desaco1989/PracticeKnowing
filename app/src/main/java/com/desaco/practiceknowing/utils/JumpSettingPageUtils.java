@@ -17,7 +17,7 @@ import java.io.InputStreamReader;
  * Created by desaco on 2018/5/31.
  */
 
-public class SettingUtils {
+public class JumpSettingPageUtils {
 
     private static final String MARK = Build.MANUFACTURER.toLowerCase();
 
