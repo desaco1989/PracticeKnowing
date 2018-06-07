@@ -1,4 +1,4 @@
-package com.desaco.practiceknowing.activity;
+package com.desaco.practiceknowing.native_method;
 
 import android.app.Activity;
 import android.os.Build;
@@ -11,7 +11,7 @@ import com.desaco.practiceknowing.R;
 import com.desaco.practiceknowing.native_method.CcallJava;
 import com.desaco.practiceknowing.native_method.NativeEncryptDecode;
 
-public class CcallJavaActivity extends Activity implements View.OnClickListener {
+public class CcallJava_CplusplusCallActivity extends Activity implements View.OnClickListener {
     //
 
     private CcallJava jni;

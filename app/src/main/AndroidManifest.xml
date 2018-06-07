@@ -17,7 +17,7 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
 
     <application
@@ -31,15 +31,15 @@
         <activity android:name=".MainActivity">
 
         </activity>
-        <activity android:name="com.desaco.practiceknowing.activity.CcallJavaActivity">
+        <activity android:name="com.desaco.practiceknowing.native_method.CcallJava_CplusplusCallActivity">
 
         </activity>
         <activity android:name="com.desaco.practiceknowing.banner.RecyclerViewWithHeaderFootActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
 
         <activity android:name="com.desaco.practiceknowing.task_one.TaskOneActivity" />
@@ -68,8 +68,7 @@
 
         </activity>
 
-        <activity android:name="com.desaco.practiceknowing.audio_video_api.VideoViewMediaControlActivity">
-        </activity>
+        <activity android:name="com.desaco.practiceknowing.audio_video_api.VideoViewMediaControlActivity"></activity>
 
         <activity android:name="com.desaco.practiceknowing.audio_video_api.MediaPlayerMediaControlActivity">
 
@@ -79,11 +78,14 @@
         </activity>
 
         <activity android:name="com.desaco.practiceknowing.banner.myBanner.BannerMainActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.tab_architecture.FourTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
     </application>

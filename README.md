@@ -31,4 +31,9 @@
 
 14.RecyclerView动态头部和尾部；Banner图无限轮播;RecyclerView头部中添加Banner
 
-15.监听WebView或RecyclerView的滚动。RecycerView滚动到最顶部和最底部?
+15.监听WebView或RecyclerView的滚动。RecycerView滚动到最顶部和最底部
+
+16.JNI扫描SD卡中mp3文件（酷狗和多米不仅仅是扫描MP3格式文件，还可以扫描ape,flac,wav等格式的音频文件）？？？
+
+17.App 主界面上的底部四个Tab实现方式之一
+
