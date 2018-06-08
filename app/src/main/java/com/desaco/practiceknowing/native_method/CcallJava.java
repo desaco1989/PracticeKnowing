@@ -25,6 +25,7 @@ public class CcallJava {
 
     static {
         System.loadLibrary("cCallJava-lib");
+        System.loadLibrary("native_exception-lib");
     }
 
     //定义本地方法
@@ -45,6 +46,7 @@ public class CcallJava {
         Toast.makeText(context, "C调用了java的空方法", Toast.LENGTH_SHORT).show();
     }
 
+    public String key = "desaco";
     //C调用java中的带两个int参数的方法
     public int add(int x, int y) {
         return x + y;
@@ -60,4 +62,6 @@ public class CcallJava {
         Log.w("desaco", s + ",我是被C调用的静态方法");
     }
 
+    public native void testExceptionM1();
+    public native void testExceptionM2();
 }

@@ -27,13 +27,18 @@ public class CcallJava_CplusplusCallActivity extends Activity implements View.On
         findViewById(R.id.bt_javanull).setOnClickListener(this);
         findViewById(R.id.bt_javaString).setOnClickListener(this);
         findViewById(R.id.bt_static).setOnClickListener(this);
+        findViewById(R.id.exception_m1).setOnClickListener(this);
+        findViewById(R.id.exception_m2).setOnClickListener(this);
 
         showEncodeStrTv = (TextView) findViewById(R.id.show_encode_str);
         findViewById(R.id.encode_str).setOnClickListener(this);
         findViewById(R.id.decode_str).setOnClickListener(this);
         //  R.id.encode_str   R.id.decode_str
 //        initData();
+        cCallJava = new CcallJava(CcallJava_CplusplusCallActivity.this);
     }
+
+    private CcallJava cCallJava;
 
     private void initData() {
         //
@@ -73,7 +78,28 @@ public class CcallJava_CplusplusCallActivity extends Activity implements View.On
                 String decode = NativeEncryptDecode.getInstance().decodeWithC(encode, encode.length());
                 showEncodeStrTv.setText(decode);
                 break;
+            case R.id.exception_m1:
+                exceptionExe("m1");
+                break;
+            case R.id.exception_m2:
+                exceptionExe("m2");
+                break;
+            default:
+                break;
         }
+    }
+    private void exceptionExe(String method) {
+        try {
+            if (method.equals("m1")) {
+                cCallJava.testExceptionM1();
+            } else {
+                cCallJava.testExceptionM2();
+            }
+            System.out.println("程序没有异常，这句话会被打印\n");
+        } catch (Exception e) {
+            System.out.println("没有捕获到JNI抛出的异常，这句话不会被打印" + e.getMessage() + "\n");
+        }
+        System.out.println("程序继续执行，这句话会被打印\n");
     }
 
     private void strEncode() {

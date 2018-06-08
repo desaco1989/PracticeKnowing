@@ -64,4 +64,15 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"/>
 
+    <Button
+        android:id="@+id/exception_m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="抛出异常方法1" />
+    <Button
+        android:id="@+id/exception_m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="抛出异常方法2" />
+
 </LinearLayout>

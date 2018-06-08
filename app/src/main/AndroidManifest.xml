@@ -32,14 +32,14 @@
 
         </activity>
         <activity android:name="com.desaco.practiceknowing.native_method.CcallJava_CplusplusCallActivity">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="com.desaco.practiceknowing.banner.RecyclerViewWithHeaderFootActivity">
-            <!--<intent-filter>-->
-            <!--<action android:name="android.intent.action.MAIN" />-->
 
-            <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
         </activity>
 
         <activity android:name="com.desaco.practiceknowing.task_one.TaskOneActivity" />
@@ -81,11 +81,11 @@
 
         </activity>
         <activity android:name="com.desaco.practiceknowing.tab_architecture.FourTabActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
 
     </application>

@@ -27,7 +27,7 @@
 
 12.泛型的上限和下限
 
-13.JNI中获取Application Context;JNI 资源释放;JNI加密(编码格式GB2312？)?
+13.JNI中获取Application Context;JNI 资源释放;JNI加密(编码格式GB2312？)? JNI线程同步？
 
 14.RecyclerView动态头部和尾部；Banner图无限轮播;RecyclerView头部中添加Banner
 
@@ -35,5 +35,32 @@
 
 16.JNI扫描SD卡中mp3文件（酷狗和多米不仅仅是扫描MP3格式文件，还可以扫描ape,flac,wav等格式的音频文件）？？？
 
-17.App 主界面上的底部四个Tab实现方式之一
+17.App 主界面上的底部四个Tab实现方式之一;Java四种引用包括强引用，软引用，弱引用，虚引用。
+
+18.JNI异常与释放资源。JNI接口？JNI与JVM。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
