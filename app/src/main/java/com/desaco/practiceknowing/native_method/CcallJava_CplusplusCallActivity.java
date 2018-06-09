@@ -3,6 +3,7 @@ package com.desaco.practiceknowing.native_method;
 import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Display;
 import android.view.View;
 import android.widget.TextView;
@@ -36,8 +37,31 @@ public class CcallJava_CplusplusCallActivity extends Activity implements View.On
         //  R.id.encode_str   R.id.decode_str
 //        initData();
         cCallJava = new CcallJava(CcallJava_CplusplusCallActivity.this);
+
+        initData2();
     }
 
+    private void initData2(){
+        byte[] byteA = new byte[2];
+        byteA[0] = 12;
+        byteA[1] = 23;
+        int len = byteA.length;
+        cCallJava.byteArray2JniM1(byteA,len);
+        cCallJava.byteArray2JniM2(byteA,len);
+
+        byte[] bytes = cCallJava.jniByte2Java();
+        for(int i=0;i<bytes.length;i++){
+            Log.e("desaco","bytes[]="+bytes[i]);
+        }
+
+        //Convert back to String
+        try{
+            Log.e("desaco","bytes="+new String(bytes,"UTF-8"));
+        }catch (Exception e){
+
+        }
+
+    }
     private CcallJava cCallJava;
 
     private void initData() {

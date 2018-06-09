@@ -61,7 +61,13 @@ public class CcallJava {
     public static void staticmethod(String s) {
         Log.w("desaco", s + ",我是被C调用的静态方法");
     }
-
+    //测试JNI异常
     public native void testExceptionM1();
     public native void testExceptionM2();
+    //测试java byte[]传给JNI
+    public native void byteArray2JniM1(byte[] buffer,int length);
+    public native void byteArray2JniM2(byte[] buffer,int length);
+    //测试JNI byte[]传给java
+    public native byte[] jniByte2Java();
+
 }
