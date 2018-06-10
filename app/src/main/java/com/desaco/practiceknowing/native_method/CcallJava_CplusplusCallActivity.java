@@ -24,6 +24,7 @@ public class CcallJava_CplusplusCallActivity extends Activity implements View.On
         setContentView(R.layout.activity_c_call_java);
 
         jni = new CcallJava(getApplicationContext());
+
         findViewById(R.id.bt_javaInt).setOnClickListener(this);
         findViewById(R.id.bt_javanull).setOnClickListener(this);
         findViewById(R.id.bt_javaString).setOnClickListener(this);
@@ -41,27 +42,38 @@ public class CcallJava_CplusplusCallActivity extends Activity implements View.On
         initData2();
     }
 
-    private void initData2(){
+    private void initData2() {
         byte[] byteA = new byte[2];
         byteA[0] = 12;
         byteA[1] = 23;
         int len = byteA.length;
-        cCallJava.byteArray2JniM1(byteA,len);
-        cCallJava.byteArray2JniM2(byteA,len);
+        cCallJava.byteArray2JniM1(byteA, len);
+        cCallJava.byteArray2JniM2(byteA, len);
 
         byte[] bytes = cCallJava.jniByte2Java();
-        for(int i=0;i<bytes.length;i++){
-            Log.e("desaco","bytes[]="+bytes[i]);
+        for (int i = 0; i < bytes.length; i++) {
+            Log.e("desaco", "bytes[]=" + bytes[i]);
         }
 
         //Convert back to String
-        try{
-            Log.e("desaco","bytes="+new String(bytes,"UTF-8"));
-        }catch (Exception e){
+        try {
+            Log.e("desaco", "bytes=" + new String(bytes, "UTF-8"));
+        } catch (Exception e) {
 
         }
 
+        //测试JNI 主线程与子线程
+//        try {
+//            cCallJava.setJNIEnv();
+//
+//            Thread.sleep(100);
+//
+//            cCallJava.mainThread();
+//        } catch (Exception e) {
+//
+//        }
     }
+
     private CcallJava cCallJava;
 
     private void initData() {
@@ -112,6 +124,7 @@ public class CcallJava_CplusplusCallActivity extends Activity implements View.On
                 break;
         }
     }
+
     private void exceptionExe(String method) {
         try {
             if (method.equals("m1")) {

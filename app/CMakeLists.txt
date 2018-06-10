@@ -36,7 +36,7 @@ add_library( # 第5个 SO，JNI异常消息
               # Sets the library as a shared library.
                 SHARED
               # 提供的c++文件
-                src/main/cpp/c_caculate/native_exception.c src/main/cpp/c_caculate/java_byte_jni.c)
+                src/main/cpp/c_caculate/native_exception.c src/main/cpp/c_caculate/java_byte_jni.c src/main/cpp/c_caculate/jni_thread3.c )
 
 # 找到预编译库 log_lib 并link到我们的动态库 native-lib中
 find_library( # Sets the name of the path variable.

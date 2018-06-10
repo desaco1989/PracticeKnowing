@@ -42,15 +42,18 @@ public class CcallJava {
     public native void callStaticmethod();
 
     //C调用java空方法
-    public void helloFromJava() {
+    public void helloFromJava2() {
         Toast.makeText(context, "C调用了java的空方法", Toast.LENGTH_SHORT).show();
     }
 
+
     public String key = "desaco";
+
     //C调用java中的带两个int参数的方法
     public int add(int x, int y) {
         return x + y;
     }
+
 
     //C调用java中参数为string的方法
     public void printString(String s) {
@@ -61,13 +64,35 @@ public class CcallJava {
     public static void staticmethod(String s) {
         Log.w("desaco", s + ",我是被C调用的静态方法");
     }
+
     //测试JNI异常
     public native void testExceptionM1();
+
     public native void testExceptionM2();
+
     //测试java byte[]传给JNI
-    public native void byteArray2JniM1(byte[] buffer,int length);
-    public native void byteArray2JniM2(byte[] buffer,int length);
+    public native void byteArray2JniM1(byte[] buffer, int length);
+
+    public native void byteArray2JniM2(byte[] buffer, int length);
+
     //测试JNI byte[]传给java
     public native byte[] jniByte2Java();
+
+    // JNI 主线程与子线程
+//    public native void mainThread();
+//    public native void setJNIEnv();
+
+    //private  public
+//    public static void helloFromJava(int i) {//TODO
+//        Log.e("desaco", "helloFromJava,i=" + i);
+//    }
+
+//    public void helloFromJava(){
+//        System.out.println("helloFromJava");
+//    }
+
+//    private static void fromJNI(int i) {
+//        Log.v("Java---------->", "" + i);
+//    }
 
 }
