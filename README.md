@@ -39,7 +39,7 @@
 
 18.JNI异常与释放资源。JNI接口？JNI与JVM。Java层与Jni层的数组互相传递;
 
-19.JNI多线程：主线程与子线程
+19.JNI多线程：主线程与子线程；Android/Java类加载器
 
 
 
