@@ -21,11 +21,6 @@ android {
             abiFilters "armeabi"
             //, "x86"
         }
-//        packagingOptions {
-//            exclude 'libs/armeabi/libcaculate-lib.so'
-//            exclude 'libs/armeabi/libencryptDecode-lib.so'
-//        }
-
 
     }
     buildTypes {
