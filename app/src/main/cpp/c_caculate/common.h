@@ -17,4 +17,12 @@ struct Cplus_Student {//C++
     int cplus_age;
 };
 
+//在C语言中，定义一个结构体类型要用typedef :
+typedef struct Point {
+    int x;
+    int y;
+}point_params;
+
+
+
 #endif //PRACTICEKNOWING_COMMON_H

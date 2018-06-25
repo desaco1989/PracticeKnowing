@@ -2,6 +2,8 @@
 // Created by desaco on 2018/6/8.
 //
 
+#include <jni.h>
+
 void native_catchException(JNIEnv *env, jobject obj)
 {
     jthrowable exc;
