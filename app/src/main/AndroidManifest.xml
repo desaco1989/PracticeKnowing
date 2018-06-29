@@ -35,6 +35,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="com.desaco.practiceknowing.animation.MatrixAnimatorActivity">
+
+        </activity>
+
         <activity android:name="com.desaco.practiceknowing.native_method.CcallJava_CplusplusCallActivity">
 
         </activity>
