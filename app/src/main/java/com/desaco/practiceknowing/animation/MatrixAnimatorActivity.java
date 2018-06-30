@@ -22,8 +22,6 @@ import com.desaco.practiceknowing.R;
 
 public class MatrixAnimatorActivity extends Activity implements View.OnClickListener {
 
-    //
-
     EditText etRotate;
     EditText etScale;
     EditText etTransX;
