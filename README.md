@@ -45,7 +45,7 @@
 
 21.局部变量，静态局部变量，全局变量，静态全局变量;C语言中局部变量和全局变量变量的存储类别(static,extern,auto,register)
 
-
+22.hook技术启动未注册的Activity 或判断某个Activity是否已经实例化好了？
 
 
 

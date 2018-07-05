@@ -29,12 +29,17 @@
         android:theme="@style/AppTheme">
 
         <activity android:name=".MainActivity">
+
+        </activity>
+
+        <activity android:name="com.desaco.practiceknowing.black_technology.hook.HookerMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.desaco.practiceknowing.black_technology.hook.HookerMain2Activity" />
 
         <activity android:name="com.desaco.practiceknowing.animation.MatrixAnimatorActivity">
 

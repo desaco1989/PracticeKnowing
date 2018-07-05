@@ -15,6 +15,7 @@ import java.util.Date;
 
 /**
  * Created by desaco on 2018/6/22.
+ * Service启动定时器
  */
 
 public class ScheduledService extends Service {
