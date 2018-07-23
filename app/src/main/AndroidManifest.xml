@@ -69,7 +69,7 @@
 
         </activity>
 
-        <activity android:name="com.desaco.practiceknowing.view_conflict.ScrollViewRecyclerViewActivity">
+        <activity android:name="com.desaco.practiceknowing.view_conflict.ScrollViewRecyclerViewActivityFrg">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,16 +1,17 @@
 package com.desaco.practiceknowing.view_conflict;
 
-import android.app.Activity;
+
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.OrientationHelper;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import com.desaco.practiceknowing.R;
 
@@ -18,31 +19,35 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by desaco on 2018/5/23.
- * 类似 HeaderView 的部分 + RecyclerView列表部分，布局是垂直方向
- * 场景是：有一部分原生的控件，( >=)占满一整屏，然后下面放一个RecyclerView列表;即使加了ScrollView，也会卡顿
- * <p>
- * https://blog.csdn.net/coralline_xss/article/details/72887136
+ * Created by desaco on 2018/7/23.
  */
 
-public class ScrollViewRecyclerViewActivity extends FragmentActivity {
+public class ScrollViewRecyclerViewFragment extends Fragment {
 
     private Context mContext;
+    String videoType;
 
+    @Nullable
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scrollview_recyclerview);//fragmnet_recycler_layout  activity_scrollview_recyclerview
-        mContext = this;
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.activity_scrollview_recyclerview, null);
+        mContext = getActivity();
+        Bundle bundle = getArguments();
+//        videoType = bundle.getString("videoType");
+
+        rv = (RecyclerView) v.findViewById(R.id.rcycler_scroll);
+        rv.setVisibility(View.VISIBLE);
 
         initView();
         initData1();
 //        initData2();
+        return v;
     }
 
     RecyclerAdapter adapter;
 
     private void initData1() {
+
 //        LinearLayoutManager manager = new LinearLayoutManager(mContext);
         //最直接的方式是将布局管理器中判断可滑动的方法，直接返回false
         LinearLayoutManager manager = new LinearLayoutManager(mContext) {
@@ -85,7 +90,7 @@ public class ScrollViewRecyclerViewActivity extends FragmentActivity {
     List<SimpleBean> list;
 
     private void initView() {
-        rv = (RecyclerView) findViewById(R.id.rcycler_scroll);
+
         //
 //        rv2 = (RecyclerView) findViewById(R.id.rcycler_scroll2);
 

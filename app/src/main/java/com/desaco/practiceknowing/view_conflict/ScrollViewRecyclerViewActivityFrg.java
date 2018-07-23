@@ -25,18 +25,26 @@ import java.util.List;
  * https://blog.csdn.net/coralline_xss/article/details/72887136
  */
 
-public class ScrollViewRecyclerViewActivity extends FragmentActivity {
+public class ScrollViewRecyclerViewActivityFrg extends FragmentActivity {
 
     private Context mContext;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scrollview_recyclerview);//fragmnet_recycler_layout  activity_scrollview_recyclerview
+        setContentView(R.layout.fragmnet_recycler_layout);//fragmnet_recycler_layout  activity_scrollview_recyclerview
         mContext = this;
 
-        initView();
-        initData1();
+        FragmentManager fragmentManager  = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+//        FragmentTransaction transaction = fragmentManager.beginTransaction();
+
+        ScrollViewRecyclerViewFragment mWeiXinFragment = new ScrollViewRecyclerViewFragment();
+        transaction.replace(R.id.add_fragment, mWeiXinFragment);
+        transaction.commit();
+
+//        initView();
+//        initData1();
 //        initData2();
     }
 
