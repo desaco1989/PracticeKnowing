@@ -9,6 +9,15 @@ public class SimpleBean {
     private String msg;
     private boolean isSubScribe;
     private int position;
+    private int newType;
+
+    public int getNewType() {
+        return newType;
+    }
+
+    public void setNewType(int newType) {
+        this.newType = newType;
+    }
 
     public int getPosition() {
         return position;

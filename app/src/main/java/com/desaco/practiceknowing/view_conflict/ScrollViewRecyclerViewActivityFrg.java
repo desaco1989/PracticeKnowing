@@ -39,8 +39,9 @@ public class ScrollViewRecyclerViewActivityFrg extends FragmentActivity {
         FragmentTransaction transaction = fragmentManager.beginTransaction();
 //        FragmentTransaction transaction = fragmentManager.beginTransaction();
 
-        ScrollViewRecyclerViewFragment mWeiXinFragment = new ScrollViewRecyclerViewFragment();
-        transaction.replace(R.id.add_fragment, mWeiXinFragment);
+        // TODO RecyclerViewHeaderFragment   ScrollViewRecyclerViewFragment
+        RecyclerViewHeaderFragment headerFrg = new RecyclerViewHeaderFragment();
+        transaction.replace(R.id.add_fragment, headerFrg);
         transaction.commit();
 
 //        initView();
@@ -48,66 +49,66 @@ public class ScrollViewRecyclerViewActivityFrg extends FragmentActivity {
 //        initData2();
     }
 
-    RecyclerAdapter adapter;
-
-    private void initData1() {
-//        LinearLayoutManager manager = new LinearLayoutManager(mContext);
-        //最直接的方式是将布局管理器中判断可滑动的方法，直接返回false
-        LinearLayoutManager manager = new LinearLayoutManager(mContext) {
-            @Override
-            public boolean canScrollVertically() {
-                // 直接禁止垂直滑动
-                return false;
-            }
-        };
-
-        manager.setOrientation(OrientationHelper.VERTICAL);
-        adapter = new RecyclerAdapter(mContext);
-        adapter.setOnClickEvent(new RecyclerAdapter.IClickEvent() {
-            @Override
-            public void onClickWhere(SimpleBean bean, String clickType) {
-                bean.setSubScribe(true);
-                Log.e("desaco", "Position=" + bean.getPosition());
-                adapter.updateItem(bean.getPosition(), bean);
-
-            }
-        });
-        rv.setLayoutManager(manager);
-        rv.setAdapter(adapter);
-
-        adapter.directPutList(list);
-    }
-
-    private void initData2() {
-        LinearLayoutManager manager2 = new LinearLayoutManager(mContext);
-        manager2.setOrientation(OrientationHelper.VERTICAL);
-        rv2.setLayoutManager(manager2);
-        RecyclerAdapter adapter2 = new RecyclerAdapter(mContext);
-        rv2.setAdapter(adapter2);
-
-        adapter2.directPutList(list);
-    }
-
-    RecyclerView rv;
-    RecyclerView rv2;
-    List<SimpleBean> list;
-
-    private void initView() {
-        rv = (RecyclerView) findViewById(R.id.rcycler_scroll);
-        //
-//        rv2 = (RecyclerView) findViewById(R.id.rcycler_scroll2);
-
-        list = new ArrayList<>();
-        for (int i = 0; i < 20; i++) {
-            SimpleBean bean = new SimpleBean();
-            if (i % 2 == 0) {
-                bean.setSubScribe(true);//已订阅
-            } else {
-                bean.setSubScribe(false);
-            }
-            bean.setTitle(i + ",,,标题--");
-            bean.setMsg(i + ";;;消息内容====");
-            list.add(bean);
-        }
-    }
+//    RecyclerAdapter adapter;
+//
+//    private void initData1() {
+////        LinearLayoutManager manager = new LinearLayoutManager(mContext);
+//        //最直接的方式是将布局管理器中判断可滑动的方法，直接返回false
+//        LinearLayoutManager manager = new LinearLayoutManager(mContext) {
+//            @Override
+//            public boolean canScrollVertically() {
+//                // 直接禁止垂直滑动
+//                return false;
+//            }
+//        };
+//
+//        manager.setOrientation(OrientationHelper.VERTICAL);
+//        adapter = new RecyclerAdapter(mContext);
+//        adapter.setOnClickEvent(new RecyclerAdapter.IClickEvent() {
+//            @Override
+//            public void onClickWhere(SimpleBean bean, String clickType) {
+//                bean.setSubScribe(true);
+//                Log.e("desaco", "Position=" + bean.getPosition());
+//                adapter.updateItem(bean.getPosition(), bean);
+//
+//            }
+//        });
+//        rv.setLayoutManager(manager);
+//        rv.setAdapter(adapter);
+//
+//        adapter.directPutList(list);
+//    }
+//
+//    private void initData2() {
+//        LinearLayoutManager manager2 = new LinearLayoutManager(mContext);
+//        manager2.setOrientation(OrientationHelper.VERTICAL);
+//        rv2.setLayoutManager(manager2);
+//        RecyclerAdapter adapter2 = new RecyclerAdapter(mContext);
+//        rv2.setAdapter(adapter2);
+//
+//        adapter2.directPutList(list);
+//    }
+//
+//    RecyclerView rv;
+//    RecyclerView rv2;
+//    List<SimpleBean> list;
+//
+//    private void initView() {
+//        rv = (RecyclerView) findViewById(R.id.rcycler_scroll);
+//        //
+////        rv2 = (RecyclerView) findViewById(R.id.rcycler_scroll2);
+//
+//        list = new ArrayList<>();
+//        for (int i = 0; i < 20; i++) {
+//            SimpleBean bean = new SimpleBean();
+//            if (i % 2 == 0) {
+//                bean.setSubScribe(true);//已订阅
+//            } else {
+//                bean.setSubScribe(false);
+//            }
+//            bean.setTitle(i + ",,,标题--");
+//            bean.setMsg(i + ";;;消息内容====");
+//            list.add(bean);
+//        }
+//    }
 }

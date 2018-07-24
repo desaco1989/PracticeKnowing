@@ -21,10 +21,10 @@ import java.util.List;
 /**
  * Created by desaco on 2018/7/23.
  *
- * RecyclerView item局部刷新
+ * 添加头部View，并刷新Item
  */
 
-public class ScrollViewRecyclerViewFragment extends Fragment {
+public class RecyclerViewHeaderFragment extends Fragment {
 
     private Context mContext;
     String videoType;
@@ -46,7 +46,7 @@ public class ScrollViewRecyclerViewFragment extends Fragment {
         return v;
     }
 
-    RecyclerAdapter adapter;
+    PgcSubscribeHeaderAdapter adapter;
 
     private void initData1() {
 
@@ -61,8 +61,8 @@ public class ScrollViewRecyclerViewFragment extends Fragment {
         };
 
         manager.setOrientation(OrientationHelper.VERTICAL);
-        adapter = new RecyclerAdapter(mContext);
-        adapter.setOnClickEvent(new RecyclerAdapter.IClickEvent() {
+        adapter = new PgcSubscribeHeaderAdapter(getContext(),"");
+        adapter.setOnClickEvent(new PgcSubscribeHeaderAdapter.IClickEvent() {
             @Override
             public void onClickWhere(SimpleBean bean, String clickType) {
                 bean.setSubScribe(true);
@@ -73,6 +73,13 @@ public class ScrollViewRecyclerViewFragment extends Fragment {
         });
         rv.setLayoutManager(manager);
         rv.setAdapter(adapter);
+
+//        adapter.addFooterView(LayoutInflater.from(this).inflate(R.layout.item_footer_layout,null));
+        //TODO 添加头部  item_simple   header_layout
+        View view = LayoutInflater.from(getActivity()).inflate(R.layout.header_layout,null);
+        adapter.addHeaderView(view);
+
+
 
         adapter.directPutList(list);
     }
