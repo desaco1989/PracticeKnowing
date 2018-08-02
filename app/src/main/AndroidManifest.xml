@@ -31,6 +31,13 @@
         <activity android:name=".MainActivity">
 
         </activity>
+        <activity android:name="com.desaco.practiceknowing.view_event_dispatch.CustomViewGroupEventActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <activity android:name="com.desaco.practiceknowing.black_technology.hook.HookerMainActivity">
 
@@ -70,11 +77,7 @@
         </activity>
 
         <activity android:name="com.desaco.practiceknowing.view_conflict.ScrollViewRecyclerViewActivityFrg">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity android:name="com.desaco.practiceknowing.data_parse.DataParseActivity">

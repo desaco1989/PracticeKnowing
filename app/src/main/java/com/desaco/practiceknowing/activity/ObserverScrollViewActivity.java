@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
@@ -43,6 +44,21 @@ public class ObserverScrollViewActivity extends Activity {
         testTv = (TextView) findViewById(R.id.test_tv);
         topMiddleTv = (TextView) findViewById(R.id.top_middle_tv);
         topMiddleTv.setVisibility(View.GONE);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+
+                break;
+            case MotionEvent.ACTION_MOVE:
+                break;
+            case MotionEvent.ACTION_UP:
+                break;
+        }
+
+        return super.onTouchEvent(event);
     }
 
     private void initWebView() {
