@@ -32,11 +32,20 @@
 
         </activity>
         <activity android:name="com.desaco.practiceknowing.view_event_dispatch.CustomViewGroupEventActivity">
+
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.activity.start_activity_for_result.OnActivityResultActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.activity.start_activity_for_result.MoonActivity">
+
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.activity.start_activity_for_result.MarsActivity">
+
         </activity>
 
         <activity android:name="com.desaco.practiceknowing.black_technology.hook.HookerMainActivity">
