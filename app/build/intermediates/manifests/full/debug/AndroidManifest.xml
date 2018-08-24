@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.desaco.practiceknowing"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="25" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.desaco.practiceknowing.MainActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.view_event_dispatch.CustomViewGroupEventActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.activity.start_activity_for_result.OnActivityResultActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.activity.start_activity_for_result.MoonActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.activity.start_activity_for_result.MarsActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.black_technology.hook.HookerMainActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.black_technology.hook.HookerMain2Activity" />
+        <activity android:name="com.desaco.practiceknowing.animation.MatrixAnimatorActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.native_method.CcallJava_CplusplusCallActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.native_method.JniThreadActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.banner.RecyclerViewWithHeaderFootActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.task_one.TaskOneActivity" />
+        <activity android:name="com.desaco.practiceknowing.task_two.AudioRecordAudioTrackActivity" />
+        <activity android:name="com.desaco.practiceknowing.task_three.ActivitySurfaceViewCamera" />
+        <activity android:name="com.desaco.practiceknowing.task_three.TextureViewActivity" />
+        <activity android:name="com.desaco.practiceknowing.task_five.DrawingGraphicsActivity" />
+        <activity android:name="com.desaco.practiceknowing.task_four.VideoAudioProcessActivity" />
+        <!--  -->
+        <activity android:name="com.desaco.practiceknowing.task_four.VideoAudioProcessActivity2" />
+        <activity android:name="com.desaco.practiceknowing.fragment.TestTreadPoolViewPagerActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.view_conflict.ScrollViewWebViewActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.view_conflict.ScrollViewRecyclerViewActivityFrg" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.data_parse.DataParseActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.audio_video_api.VideoViewMediaControlActivity" />
+        <activity android:name="com.desaco.practiceknowing.audio_video_api.MediaPlayerMediaControlActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.activity.ObserverScrollViewActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.banner.myBanner.BannerMainActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.tab_architecture.FourTabActivity" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

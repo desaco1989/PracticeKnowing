@@ -1,0 +1,7 @@
+E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/caculate-lib.dir
+E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/encryptDecode-lib.dir
+E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/jniAttr-lib.dir
+E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/cCallJava-lib.dir
+E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/native_exception-lib.dir
+E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir

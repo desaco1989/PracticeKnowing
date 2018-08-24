@@ -19,7 +19,7 @@ import com.desaco.practiceknowing.widget.ScrollWebView;
 
 /**
  * Created by desaco on 2018/6/7.
- * https://www.jianshu.com/p/d4d02cb9791c
+ * 监听WebView滚动事件- https://www.jianshu.com/p/d4d02cb9791c
  */
 
 public class ObserverScrollViewActivity extends Activity {
