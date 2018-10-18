@@ -24,12 +24,12 @@
         "source": "E:\\my_github_projects\\PracticeKnowing\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "E:\\my_github_projects\\PracticeKnowing\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recyclerview_header_footer.xml.flat",
-        "source": "E:\\my_github_projects\\PracticeKnowing\\app\\src\\main\\res\\layout\\activity_recyclerview_header_footer.xml"
-    },
-    {
         "merged": "D:\\my_github_projects\\PracticeKnowing\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_custom_button.xml.flat",
         "source": "D:\\my_github_projects\\PracticeKnowing\\app\\src\\main\\res\\layout\\activity_custom_button.xml"
+    },
+    {
+        "merged": "E:\\my_github_projects\\PracticeKnowing\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recyclerview_header_footer.xml.flat",
+        "source": "E:\\my_github_projects\\PracticeKnowing\\app\\src\\main\\res\\layout\\activity_recyclerview_header_footer.xml"
     },
     {
         "merged": "D:\\my_github_projects\\PracticeKnowing\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_camera_ablum_main.xml.flat",
@@ -78,6 +78,10 @@
     {
         "merged": "D:\\my_github_projects\\PracticeKnowing\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon_back.png.flat",
         "source": "D:\\my_github_projects\\PracticeKnowing\\app\\src\\main\\res\\mipmap-xhdpi\\icon_back.png"
+    },
+    {
+        "merged": "D:\\my_github_projects\\PracticeKnowing\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_layout.xml.flat",
+        "source": "D:\\my_github_projects\\PracticeKnowing\\app\\src\\main\\res\\layout\\my_layout.xml"
     },
     {
         "merged": "E:\\my_github_projects\\PracticeKnowing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
@@ -226,6 +230,10 @@
     {
         "merged": "E:\\my_github_projects\\PracticeKnowing\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "E:\\my_github_projects\\PracticeKnowing\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\my_github_projects\\PracticeKnowing\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_eventbus_manyevents.xml.flat",
+        "source": "D:\\my_github_projects\\PracticeKnowing\\app\\src\\main\\res\\layout\\activity_eventbus_manyevents.xml"
     },
     {
         "merged": "E:\\my_github_projects\\PracticeKnowing\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon_tab_faxian_pressed.png.flat",

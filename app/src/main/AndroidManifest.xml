@@ -35,12 +35,17 @@
 
         </activity>
         <activity android:name="com.desaco.practiceknowing.activity.start_activity_for_result.OnActivityResultActivity">
+
+        </activity>
+
+        <activity android:name="com.desaco.practiceknowing.activity.eventbus.EventbusManyEventsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name="com.desaco.practiceknowing.activity.start_activity_for_result.MoonActivity">
 
         </activity>

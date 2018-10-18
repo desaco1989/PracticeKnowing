@@ -1,0 +1,14 @@
+# ninja log v5
+30	537	0	CMakeFiles/native_exception-lib.dir/src/main/cpp/c_caculate/java_byte_jni.c.o	eba4bdba3c1c9e2f
+0	553	0	CMakeFiles/native_exception-lib.dir/src/main/cpp/c_caculate/native_exception.c.o	ff8e4d9dfb00f36b
+65	575	0	CMakeFiles/native_exception-lib.dir/src/main/cpp/c_caculate/jni_thread3.c.o	f2f947d53b0734fe
+576	851	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libnative_exception-lib.so	25273c10381a9597
+1	374	0	CMakeFiles/jniAttr-lib.dir/src/main/cpp/jni_attr/cplusplus_invoke_java.cpp.o	8aaed8c849eb37ff
+374	530	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libjniAttr-lib.so	552fd98eba4df21f
+1	172	0	CMakeFiles/encryptDecode-lib.dir/src/main/cpp/decrypt_encrypt/NativeEncryptDecode.cpp.o	941fa92432b5b3e6
+14	182	0	CMakeFiles/encryptDecode-lib.dir/src/main/cpp/decrypt_encrypt/encode_decode.c.o	63a2081a410c804f
+183	293	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libencryptDecode-lib.so	9cb16ac04b7eb732
+1	169	0	CMakeFiles/caculate-lib.dir/src/main/cpp/caculate/Caculate.cpp.o	6fb39e406c8dc748
+170	278	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libcaculate-lib.so	a1a32335263bb654
+1	135	0	CMakeFiles/cCallJava-lib.dir/src/main/cpp/jni_attr/c_call_java.c.o	2d3edc3f62bc75b5
+136	234	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libcCallJava-lib.so	f6e0027a3077b144

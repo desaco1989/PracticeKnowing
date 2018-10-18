@@ -57,7 +57,7 @@
 
 27.Activity与Activity传递数据并回传数据,startActivityForResult() 与 setResult(),onActivityResult
 
-
+28.EventBus发送消息：主线程和子线程发送消息
 
 
 

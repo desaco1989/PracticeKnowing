@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >  
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+</head>
+<script type="text/javascript">
+	function reLoad(){
+
+	}
+</script>
+<style type="text/css">
+	a{  
+		border-radius: 15px;
+		display:inline-block;  
+		line-height:40px;  
+		text-decoration:none;  
+		padding-left:20px;
+	}  
+
+		/*div{
+			border-color: black;
+			　　border-style: solid dashed;
+			　　border-width: 1px 2px 3px;
+			　　border-top-color: red;
+			　　border-radius: 5%;
+		}*/
+
+		#round {
+			margin:0 auto; /* 居中 这个是必须的，，其它的属性非必须 */ 
+			text-align: center;
+			padding:10px; 
+			width:250px; 
+			height:40px;
+			border: 1px solid #dedede;
+			-moz-border-radius: 15px;      /* Gecko browsers */
+			-webkit-border-radius: 15px;   /* Webkit browsers */
+			border-radius:15px;            /* W3C syntax */
+		}
+	</style>
+	<body>
+		<img src="../imgs/sleep_cat.png" style=" width:100%; height:200px;">
+		<p style="margin-left: 30px;">
+			抱歉，服务器开了个小差。
+		</p>
+		<p style="margin-left: 30px;">
+			错误代码:
+		</p>
+
+		<!-- <a href="onReload{'url','reload'}" id="round">重新加载</a> -->
+		<div id="round"> 
+			<a href="onReload{'url','reload'}" >重新加载</a>
+
+		</div>
+	</body>
+	</html>
