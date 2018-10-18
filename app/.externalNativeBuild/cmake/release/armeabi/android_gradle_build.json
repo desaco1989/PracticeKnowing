@@ -1,10 +1,10 @@
 
 {
-	"buildFiles" : [ "E:/my_github_projects/PracticeKnowing/app/CMakeLists.txt" ],
+	"buildFiles" : [ "D:/my_github_projects/PracticeKnowing/app/CMakeLists.txt" ],
 	"cFileExtensions" : [ "c" ],
 	"cleanCommands" : 
 	[
-		"F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
+		"C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -13,117 +13,117 @@
 		{
 			"abi" : "armeabi",
 			"artifactName" : "cCallJava-lib",
-			"buildCommand" : "F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target cCallJava-lib",
+			"buildCommand" : "C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target cCallJava-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot -DcCallJava_lib_EXPORTS  -isystem F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "E:/my_github_projects/PracticeKnowing/app/src/main/cpp/jni_attr/c_call_java.c",
-					"workingDirectory" : "E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot -DcCallJava_lib_EXPORTS  -isystem C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/my_github_projects/PracticeKnowing/app/src/main/cpp/jni_attr/c_call_java.c",
+					"workingDirectory" : "D:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
 				}
 			],
-			"output" : "E:/my_github_projects/PracticeKnowing/app/build/intermediates/cmake/release/obj/armeabi/libcCallJava-lib.so",
-			"toolchain" : "1657509955"
+			"output" : "D:/my_github_projects/PracticeKnowing/app/build/intermediates/cmake/release/obj/armeabi/libcCallJava-lib.so",
+			"toolchain" : "4029583839"
 		},
 		"caculate-lib-Release-armeabi" : 
 		{
 			"abi" : "armeabi",
 			"artifactName" : "caculate-lib",
-			"buildCommand" : "F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target caculate-lib",
+			"buildCommand" : "C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target caculate-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot  -Dcaculate_lib_EXPORTS -isystem F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "E:/my_github_projects/PracticeKnowing/app/src/main/cpp/caculate/Caculate.cpp",
-					"workingDirectory" : "E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Dcaculate_lib_EXPORTS -isystem C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/my_github_projects/PracticeKnowing/app/src/main/cpp/caculate/Caculate.cpp",
+					"workingDirectory" : "D:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
 				}
 			],
-			"output" : "E:/my_github_projects/PracticeKnowing/app/build/intermediates/cmake/release/obj/armeabi/libcaculate-lib.so",
-			"toolchain" : "1657509955"
+			"output" : "D:/my_github_projects/PracticeKnowing/app/build/intermediates/cmake/release/obj/armeabi/libcaculate-lib.so",
+			"toolchain" : "4029583839"
 		},
 		"encryptDecode-lib-Release-armeabi" : 
 		{
 			"abi" : "armeabi",
 			"artifactName" : "encryptDecode-lib",
-			"buildCommand" : "F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target encryptDecode-lib",
+			"buildCommand" : "C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target encryptDecode-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot  -DencryptDecode_lib_EXPORTS -isystem F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "E:/my_github_projects/PracticeKnowing/app/src/main/cpp/decrypt_encrypt/NativeEncryptDecode.cpp",
-					"workingDirectory" : "E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -DencryptDecode_lib_EXPORTS -isystem C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/my_github_projects/PracticeKnowing/app/src/main/cpp/decrypt_encrypt/NativeEncryptDecode.cpp",
+					"workingDirectory" : "D:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
 				},
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot -DencryptDecode_lib_EXPORTS  -isystem F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "E:/my_github_projects/PracticeKnowing/app/src/main/cpp/decrypt_encrypt/encode_decode.c",
-					"workingDirectory" : "E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot -DencryptDecode_lib_EXPORTS  -isystem C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/my_github_projects/PracticeKnowing/app/src/main/cpp/decrypt_encrypt/encode_decode.c",
+					"workingDirectory" : "D:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
 				}
 			],
-			"output" : "E:/my_github_projects/PracticeKnowing/app/build/intermediates/cmake/release/obj/armeabi/libencryptDecode-lib.so",
-			"toolchain" : "1657509955"
+			"output" : "D:/my_github_projects/PracticeKnowing/app/build/intermediates/cmake/release/obj/armeabi/libencryptDecode-lib.so",
+			"toolchain" : "4029583839"
 		},
 		"jniAttr-lib-Release-armeabi" : 
 		{
 			"abi" : "armeabi",
 			"artifactName" : "jniAttr-lib",
-			"buildCommand" : "F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target jniAttr-lib",
+			"buildCommand" : "C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target jniAttr-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot  -DjniAttr_lib_EXPORTS -isystem F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "E:/my_github_projects/PracticeKnowing/app/src/main/cpp/jni_attr/cplusplus_invoke_java.cpp",
-					"workingDirectory" : "E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -DjniAttr_lib_EXPORTS -isystem C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/my_github_projects/PracticeKnowing/app/src/main/cpp/jni_attr/cplusplus_invoke_java.cpp",
+					"workingDirectory" : "D:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
 				}
 			],
-			"output" : "E:/my_github_projects/PracticeKnowing/app/build/intermediates/cmake/release/obj/armeabi/libjniAttr-lib.so",
-			"toolchain" : "1657509955"
+			"output" : "D:/my_github_projects/PracticeKnowing/app/build/intermediates/cmake/release/obj/armeabi/libjniAttr-lib.so",
+			"toolchain" : "4029583839"
 		},
 		"native_exception-lib-Release-armeabi" : 
 		{
 			"abi" : "armeabi",
 			"artifactName" : "native_exception-lib",
-			"buildCommand" : "F:\\software_ide\\android_eclipse_ide\\eclipse\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target native_exception-lib",
+			"buildCommand" : "C:\\Users\\desaco\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\my_github_projects\\PracticeKnowing\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target native_exception-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot -Dnative_exception_lib_EXPORTS  -isystem F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "E:/my_github_projects/PracticeKnowing/app/src/main/cpp/c_caculate/native_exception.c",
-					"workingDirectory" : "E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot -Dnative_exception_lib_EXPORTS  -isystem C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/my_github_projects/PracticeKnowing/app/src/main/cpp/c_caculate/native_exception.c",
+					"workingDirectory" : "D:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
 				},
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot -Dnative_exception_lib_EXPORTS  -isystem F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "E:/my_github_projects/PracticeKnowing/app/src/main/cpp/c_caculate/java_byte_jni.c",
-					"workingDirectory" : "E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot -Dnative_exception_lib_EXPORTS  -isystem C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/my_github_projects/PracticeKnowing/app/src/main/cpp/c_caculate/java_byte_jni.c",
+					"workingDirectory" : "D:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
 				},
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot -Dnative_exception_lib_EXPORTS  -isystem F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "E:/my_github_projects/PracticeKnowing/app/src/main/cpp/c_caculate/jni_thread3.c",
-					"workingDirectory" : "E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot -Dnative_exception_lib_EXPORTS  -isystem C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/my_github_projects/PracticeKnowing/app/src/main/cpp/c_caculate/jni_thread3.c",
+					"workingDirectory" : "D:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi"
 				}
 			],
-			"output" : "E:/my_github_projects/PracticeKnowing/app/build/intermediates/cmake/release/obj/armeabi/libnative_exception-lib.so",
-			"toolchain" : "1657509955"
+			"output" : "D:/my_github_projects/PracticeKnowing/app/build/intermediates/cmake/release/obj/armeabi/libnative_exception-lib.so",
+			"toolchain" : "4029583839"
 		}
 	},
 	"toolchains" : 
 	{
-		"1657509955" : 
+		"4029583839" : 
 		{
-			"cCompilerExecutable" : "F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }

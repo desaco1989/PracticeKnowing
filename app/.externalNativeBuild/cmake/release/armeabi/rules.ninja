@@ -17,7 +17,7 @@
 rule CXX_COMPILER__caculate-lib
   depfile = $DEP_FILE
   deps = gcc
-  command = F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
+  command = C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
   description = Building CXX object $out
 
 
@@ -25,7 +25,7 @@ rule CXX_COMPILER__caculate-lib
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__caculate-lib
-  command = cmd.exe /C "$PRE_LINK && F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -36,7 +36,7 @@ rule CXX_SHARED_LIBRARY_LINKER__caculate-lib
 rule C_COMPILER__encryptDecode-lib
   depfile = $DEP_FILE
   deps = gcc
-  command = F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $IN_ABS
+  command = C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $IN_ABS
   description = Building C object $out
 
 
@@ -46,7 +46,7 @@ rule C_COMPILER__encryptDecode-lib
 rule CXX_COMPILER__encryptDecode-lib
   depfile = $DEP_FILE
   deps = gcc
-  command = F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
+  command = C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
   description = Building CXX object $out
 
 
@@ -54,7 +54,7 @@ rule CXX_COMPILER__encryptDecode-lib
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__encryptDecode-lib
-  command = cmd.exe /C "$PRE_LINK && F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -65,7 +65,7 @@ rule CXX_SHARED_LIBRARY_LINKER__encryptDecode-lib
 rule CXX_COMPILER__jniAttr-lib
   depfile = $DEP_FILE
   deps = gcc
-  command = F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
+  command = C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
   description = Building CXX object $out
 
 
@@ -73,7 +73,7 @@ rule CXX_COMPILER__jniAttr-lib
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__jniAttr-lib
-  command = cmd.exe /C "$PRE_LINK && F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -92,7 +92,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__cCallJava-lib
   depfile = $DEP_FILE
   deps = gcc
-  command = F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $IN_ABS
+  command = C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $IN_ABS
   description = Building C object $out
 
 
@@ -100,7 +100,7 @@ rule C_COMPILER__cCallJava-lib
 # Rule for linking C shared library.
 
 rule C_SHARED_LIBRARY_LINKER__cCallJava-lib
-  command = cmd.exe /C "$PRE_LINK && F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -111,7 +111,7 @@ rule C_SHARED_LIBRARY_LINKER__cCallJava-lib
 rule C_COMPILER__native_exception-lib
   depfile = $DEP_FILE
   deps = gcc
-  command = F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $IN_ABS
+  command = C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $IN_ABS
   description = Building C object $out
 
 
@@ -119,7 +119,7 @@ rule C_COMPILER__native_exception-lib
 # Rule for linking C shared library.
 
 rule C_SHARED_LIBRARY_LINKER__native_exception-lib
-  command = cmd.exe /C "$PRE_LINK && F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/software_ide/android_eclipse_ide/eclipse/sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/desaco/AppData/Local/Android/Sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -128,7 +128,7 @@ rule C_SHARED_LIBRARY_LINKER__native_exception-lib
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = F:\software_ide\android_eclipse_ide\eclipse\sdk\cmake\3.6.4111459\bin\cmake.exe -HE:\my_github_projects\PracticeKnowing\app -BE:\my_github_projects\PracticeKnowing\app\.externalNativeBuild\cmake\release\armeabi
+  command = C:\Users\desaco\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe -HD:\my_github_projects\PracticeKnowing\app -BD:\my_github_projects\PracticeKnowing\app\.externalNativeBuild\cmake\release\armeabi
   description = Re-running CMake...
   generator = 1
 
@@ -137,7 +137,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = F:\software_ide\android_eclipse_ide\eclipse\sdk\cmake\3.6.4111459\bin\ninja.exe -t clean
+  command = C:\Users\desaco\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe -t clean
   description = Cleaning all built files...
 
 
@@ -145,6 +145,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = F:\software_ide\android_eclipse_ide\eclipse\sdk\cmake\3.6.4111459\bin\ninja.exe -t targets
+  command = C:\Users\desaco\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe -t targets
   description = All primary targets available:
 

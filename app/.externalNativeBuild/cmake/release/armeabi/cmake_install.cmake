@@ -1,4 +1,4 @@
-# Install script for directory: E:/my_github_projects/PracticeKnowing/app
+# Install script for directory: D:/my_github_projects/PracticeKnowing/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/my_github_projects/PracticeKnowing/app/.externalNativeBuild/cmake/release/armeabi/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

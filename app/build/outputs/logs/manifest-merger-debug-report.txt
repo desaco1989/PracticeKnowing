@@ -1,267 +1,267 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\e1895ef5957b7cd475bfd8c6a383da24\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:24.1.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.1.1.aar\2181521dd06403bfdeb268ee31e06389\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7e4ef00f27e8bb1f010d020ecf2da112\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\491c1c62a409904410009ef59926de39\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\1ea125431241c1d665d38d65e354df81\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c3736664bfd54aafc044cf11ca8620a8\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\984f3524c01ca65884e4b3940fc6ebf8\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9f04ea6a0218c7cd9d2a7c2278cb99ca\AndroidManifest.xml:17:1-31:12
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\8fe9fee834fc70c4086bded4cc21667d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:24.1.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\recyclerview-v7-24.1.1.aar\3d0efe46e69460a7d9b6a68d2bcadcca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\3bb26c904a7054b4edf29592cd7f2137\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e601e649dd972072eb30faa6f1469a2e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5aae3d0d7761ea74a2d75d8264633c70\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b36389d2943ba9a84aca9a0719fd49de\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\c90a71d97eabc57349594cdd0381e011\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4ef11170c4a1d48179a998a0cd5cc055\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
 	package
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
-		INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
-		INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
+		INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
-		INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:1-118:12
+		INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#0x00020000
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:5:5-7:35
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:5:5-7:35
 	android:glEsVersion
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:6:9-41
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:6:9-41
 	android:required
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:7:9-32
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:7:9-32
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:10:5-96
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:10:5-96
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:11:5-84
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:11:5-84
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:11:22-81
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:11:22-81
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:13:5-71
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:13:5-71
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:13:22-68
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:13:22-68
 uses-feature#android.hardware.camera
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:15:5-60
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:15:5-60
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:15:19-57
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:15:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:16:5-70
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:16:5-70
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:16:19-67
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:16:19-67
 uses-permission#android.permission.CAMERA
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:18:5-65
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:18:5-65
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:18:22-62
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:18:22-62
 uses-permission#android.permission.FLASHLIGHT
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:19:5-69
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:19:5-69
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:19:22-66
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:19:22-66
 uses-permission#android.permission.INTERNET
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:20:5-67
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:20:5-67
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:20:22-64
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:20:22-64
 application
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:23:5-116:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\e1895ef5957b7cd475bfd8c6a383da24\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\e1895ef5957b7cd475bfd8c6a383da24\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7e4ef00f27e8bb1f010d020ecf2da112\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7e4ef00f27e8bb1f010d020ecf2da112\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\491c1c62a409904410009ef59926de39\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\491c1c62a409904410009ef59926de39\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\1ea125431241c1d665d38d65e354df81\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\1ea125431241c1d665d38d65e354df81\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c3736664bfd54aafc044cf11ca8620a8\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c3736664bfd54aafc044cf11ca8620a8\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\984f3524c01ca65884e4b3940fc6ebf8\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\984f3524c01ca65884e4b3940fc6ebf8\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9f04ea6a0218c7cd9d2a7c2278cb99ca\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9f04ea6a0218c7cd9d2a7c2278cb99ca\AndroidManifest.xml:29:5-20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:23:5-116:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\8fe9fee834fc70c4086bded4cc21667d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\8fe9fee834fc70c4086bded4cc21667d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\3bb26c904a7054b4edf29592cd7f2137\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\3bb26c904a7054b4edf29592cd7f2137\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e601e649dd972072eb30faa6f1469a2e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e601e649dd972072eb30faa6f1469a2e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5aae3d0d7761ea74a2d75d8264633c70\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5aae3d0d7761ea74a2d75d8264633c70\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b36389d2943ba9a84aca9a0719fd49de\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b36389d2943ba9a84aca9a0719fd49de\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\c90a71d97eabc57349594cdd0381e011\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\c90a71d97eabc57349594cdd0381e011\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4ef11170c4a1d48179a998a0cd5cc055\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4ef11170c4a1d48179a998a0cd5cc055\AndroidManifest.xml:29:5-20
 	android:supportsRtl
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:28:9-35
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:28:9-35
 	android:label
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:26:9-41
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:26:9-41
 	android:roundIcon
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:27:9-54
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:27:9-54
 	android:icon
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:25:9-43
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:25:9-43
 	android:allowBackup
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:24:9-35
 	android:theme
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:29:9-40
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:29:9-40
 activity#com.desaco.practiceknowing.MainActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:31:9-33:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:31:9-33:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:31:19-47
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:31:19-47
 activity#com.desaco.practiceknowing.view_event_dispatch.CustomViewGroupEventActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:34:9-36:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:34:9-36:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:34:19-109
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:34:19-109
 activity#com.desaco.practiceknowing.activity.start_activity_for_result.OnActivityResultActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:37:9-43:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:37:9-43:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:37:19-120
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:37:19-120
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:38:13-42:29
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:39:17-69
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:39:25-66
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:41:17-77
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:41:27-74
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:41:27-74
 activity#com.desaco.practiceknowing.activity.start_activity_for_result.MoonActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:44:9-46:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:44:9-46:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:44:19-108
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:44:19-108
 activity#com.desaco.practiceknowing.activity.start_activity_for_result.MarsActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:47:9-49:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:47:9-49:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:47:19-108
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:47:19-108
 activity#com.desaco.practiceknowing.black_technology.hook.HookerMainActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:51:9-53:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:51:9-53:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:51:19-101
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:51:19-101
 activity#com.desaco.practiceknowing.black_technology.hook.HookerMain2Activity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:54:9-105
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:54:9-105
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:54:19-102
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:54:19-102
 activity#com.desaco.practiceknowing.animation.MatrixAnimatorActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:56:9-58:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:56:9-58:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:56:19-93
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:56:19-93
 activity#com.desaco.practiceknowing.native_method.CcallJava_CplusplusCallActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:60:9-62:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:60:9-62:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:60:19-106
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:60:19-106
 activity#com.desaco.practiceknowing.native_method.JniThreadActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:63:9-65:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:63:9-65:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:63:19-92
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:63:19-92
 activity#com.desaco.practiceknowing.banner.RecyclerViewWithHeaderFootActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:66:9-68:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:66:9-68:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:66:19-102
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:66:19-102
 activity#com.desaco.practiceknowing.task_one.TaskOneActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:70:9-88
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:70:9-88
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:70:19-85
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:70:19-85
 activity#com.desaco.practiceknowing.task_two.AudioRecordAudioTrackActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:71:9-102
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:71:9-102
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:71:19-99
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:71:19-99
 activity#com.desaco.practiceknowing.task_three.ActivitySurfaceViewCamera
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:72:9-100
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:72:9-100
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:72:19-97
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:72:19-97
 activity#com.desaco.practiceknowing.task_three.TextureViewActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:73:9-94
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:73:9-94
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:73:19-91
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:73:19-91
 activity#com.desaco.practiceknowing.task_five.DrawingGraphicsActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:74:9-97
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:74:9-97
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:74:19-94
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:74:19-94
 activity#com.desaco.practiceknowing.task_four.VideoAudioProcessActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:76:9-99
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:76:9-99
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:76:19-96
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:76:19-96
 activity#com.desaco.practiceknowing.task_four.VideoAudioProcessActivity2
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:78:9-100
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:78:9-100
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:78:19-97
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:78:19-97
 activity#com.desaco.practiceknowing.fragment.TestTreadPoolViewPagerActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:80:9-82:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:80:9-82:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:80:19-100
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:80:19-100
 activity#com.desaco.practiceknowing.view_conflict.ScrollViewWebViewActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:84:9-86:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:84:9-86:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:84:19-100
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:84:19-100
 activity#com.desaco.practiceknowing.view_conflict.ScrollViewRecyclerViewActivityFrg
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:88:9-90:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:88:9-90:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:88:19-108
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:88:19-108
 activity#com.desaco.practiceknowing.data_parse.DataParseActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:92:9-94:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:92:9-94:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:92:19-89
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:92:19-89
 activity#com.desaco.practiceknowing.audio_video_api.VideoViewMediaControlActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:96:9-118
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:96:9-118
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:96:19-106
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:96:19-106
 activity#com.desaco.practiceknowing.audio_video_api.MediaPlayerMediaControlActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:98:9-100:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:98:9-100:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:98:19-108
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:98:19-108
 activity#com.desaco.practiceknowing.activity.ObserverScrollViewActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:101:9-103:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:101:9-103:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:101:19-96
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:101:19-96
 activity#com.desaco.practiceknowing.banner.myBanner.BannerMainActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:105:9-107:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:105:9-107:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:105:19-95
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:105:19-95
 activity#com.desaco.practiceknowing.tab_architecture.FourTabActivity
-ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:108:9-114:20
+ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:108:9-114:20
 	android:name
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:108:19-93
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml:108:19-93
 uses-sdk
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\e1895ef5957b7cd475bfd8c6a383da24\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\e1895ef5957b7cd475bfd8c6a383da24\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:24.1.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.1.1.aar\2181521dd06403bfdeb268ee31e06389\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:24.1.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.1.1.aar\2181521dd06403bfdeb268ee31e06389\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7e4ef00f27e8bb1f010d020ecf2da112\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7e4ef00f27e8bb1f010d020ecf2da112\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\491c1c62a409904410009ef59926de39\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\491c1c62a409904410009ef59926de39\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\1ea125431241c1d665d38d65e354df81\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\1ea125431241c1d665d38d65e354df81\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c3736664bfd54aafc044cf11ca8620a8\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c3736664bfd54aafc044cf11ca8620a8\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\984f3524c01ca65884e4b3940fc6ebf8\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\984f3524c01ca65884e4b3940fc6ebf8\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9f04ea6a0218c7cd9d2a7c2278cb99ca\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9f04ea6a0218c7cd9d2a7c2278cb99ca\AndroidManifest.xml:21:5-23:58
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
-INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\8fe9fee834fc70c4086bded4cc21667d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\8fe9fee834fc70c4086bded4cc21667d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:24.1.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\recyclerview-v7-24.1.1.aar\3d0efe46e69460a7d9b6a68d2bcadcca\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.1.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\recyclerview-v7-24.1.1.aar\3d0efe46e69460a7d9b6a68d2bcadcca\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\3bb26c904a7054b4edf29592cd7f2137\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\3bb26c904a7054b4edf29592cd7f2137\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e601e649dd972072eb30faa6f1469a2e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e601e649dd972072eb30faa6f1469a2e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5aae3d0d7761ea74a2d75d8264633c70\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5aae3d0d7761ea74a2d75d8264633c70\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b36389d2943ba9a84aca9a0719fd49de\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b36389d2943ba9a84aca9a0719fd49de\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\c90a71d97eabc57349594cdd0381e011\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\c90a71d97eabc57349594cdd0381e011\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4ef11170c4a1d48179a998a0cd5cc055\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4ef11170c4a1d48179a998a0cd5cc055\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7e4ef00f27e8bb1f010d020ecf2da112\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\3bb26c904a7054b4edf29592cd7f2137\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
-		INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
-		ADDED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
-		INJECTED from E:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		ADDED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
+		INJECTED from D:\my_github_projects\PracticeKnowing\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7e4ef00f27e8bb1f010d020ecf2da112\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\491c1c62a409904410009ef59926de39\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\491c1c62a409904410009ef59926de39\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\1ea125431241c1d665d38d65e354df81\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\1ea125431241c1d665d38d65e354df81\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c3736664bfd54aafc044cf11ca8620a8\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c3736664bfd54aafc044cf11ca8620a8\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\984f3524c01ca65884e4b3940fc6ebf8\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\984f3524c01ca65884e4b3940fc6ebf8\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9f04ea6a0218c7cd9d2a7c2278cb99ca\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9f04ea6a0218c7cd9d2a7c2278cb99ca\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:support-v4:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\3bb26c904a7054b4edf29592cd7f2137\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e601e649dd972072eb30faa6f1469a2e\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e601e649dd972072eb30faa6f1469a2e\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5aae3d0d7761ea74a2d75d8264633c70\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5aae3d0d7761ea74a2d75d8264633c70\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b36389d2943ba9a84aca9a0719fd49de\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b36389d2943ba9a84aca9a0719fd49de\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\c90a71d97eabc57349594cdd0381e011\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\c90a71d97eabc57349594cdd0381e011\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4ef11170c4a1d48179a998a0cd5cc055\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4ef11170c4a1d48179a998a0cd5cc055\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7e4ef00f27e8bb1f010d020ecf2da112\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:support-v4:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\3bb26c904a7054b4edf29592cd7f2137\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\desaco\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7e4ef00f27e8bb1f010d020ecf2da112\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:support-v4:25.3.1] D:\ide\gradle-4.1\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\3bb26c904a7054b4edf29592cd7f2137\AndroidManifest.xml:26:9-47

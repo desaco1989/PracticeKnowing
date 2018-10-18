@@ -1,15 +1,15 @@
-Executable : F:\software_ide\android_eclipse_ide\eclipse\sdk\cmake\3.6.4111459\bin\cmake.exe
+Executable : C:\Users\desaco\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
 arguments : 
--HE:\my_github_projects\PracticeKnowing\app
--BE:\my_github_projects\PracticeKnowing\app\.externalNativeBuild\cmake\release\armeabi
+-HD:\my_github_projects\PracticeKnowing\app
+-BD:\my_github_projects\PracticeKnowing\app\.externalNativeBuild\cmake\release\armeabi
 -DANDROID_ABI=armeabi
 -DANDROID_PLATFORM=android-18
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\my_github_projects\PracticeKnowing\app\build\intermediates\cmake\release\obj\armeabi
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\my_github_projects\PracticeKnowing\app\build\intermediates\cmake\release\obj\armeabi
 -DCMAKE_BUILD_TYPE=Release
--DANDROID_NDK=F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle
+-DANDROID_NDK=C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle
 -DCMAKE_CXX_FLAGS=-frtti -fexceptions
--DCMAKE_TOOLCHAIN_FILE=F:\software_ide\android_eclipse_ide\eclipse\sdk\ndk-bundle\build\cmake\android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=F:\software_ide\android_eclipse_ide\eclipse\sdk\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\desaco\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\desaco\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
 -GAndroid Gradle - Ninja
 jvmArgs : 
 
