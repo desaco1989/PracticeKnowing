@@ -44,11 +44,25 @@
         <activity android:name="com.desaco.practiceknowing.activity.start_activity_for_result.OnActivityResultActivity" >
         </activity>
         <activity android:name="com.desaco.practiceknowing.activity.eventbus.EventbusManyEventsActivity" >
+        </activity>
+        <activity
+            android:name="com.desaco.practiceknowing.activity.tts_audio.SpeechTTSActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+
+        <!-- android:theme="@style/Theme.AppCompat.NoActionBar" -->
+        <activity
+            android:name="com.desaco.practiceknowing.activity.activity_4_fragment.ScalableAppCompatActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.activity.activity_4_fragment.ScalableFragmentActivity" >
+        </activity>
+        <activity android:name="com.desaco.practiceknowing.activity.activity_4_fragment.ScalableActivity" >
         </activity>
         <activity android:name="com.desaco.practiceknowing.activity.start_activity_for_result.MoonActivity" >
         </activity>

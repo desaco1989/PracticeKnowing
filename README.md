@@ -59,7 +59,7 @@
 
 28.EventBus发送消息：主线程和子线程发送消息
 
-
+29.在FragmentActivity和Activity、AppCompatActivity使用Fragment
 
 
 
