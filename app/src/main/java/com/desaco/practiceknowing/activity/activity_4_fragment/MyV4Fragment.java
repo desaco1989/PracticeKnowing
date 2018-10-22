@@ -1,12 +1,14 @@
 package com.desaco.practiceknowing.activity.activity_4_fragment;
 
 import android.os.Bundle;
+import android.os.Looper;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.desaco.practiceknowing.R;
 
@@ -32,8 +34,19 @@ public class MyV4Fragment extends Fragment {
         String data = bundle.getString("DATA");
         TextView showTv = (TextView) myView.findViewById(R.id.show_tv);
         showTv.setText(data);
-        Log.e("desaco","MyV4Fragment onCreateView");
+        Log.e("desaco", "MyV4Fragment onCreateView");
 
         return myView;
+    }
+
+    private void loadData() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Looper.prepare();
+                Toast.makeText(getContext(), "子线程显示", Toast.LENGTH_SHORT).show();
+                Looper.loop();
+            }
+        }).start();
     }
 }
