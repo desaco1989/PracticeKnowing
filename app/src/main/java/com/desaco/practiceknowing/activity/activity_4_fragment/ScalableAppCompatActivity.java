@@ -43,7 +43,7 @@ public class ScalableAppCompatActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fragment_layout);
 
         TextView tv = (TextView)findViewById(R.id.f_tv);
-        tv.setText("我是顶部");
+        tv.setText("我是顶部，ViewPager + Fragment。");
 
         initViewAndData();
     }
